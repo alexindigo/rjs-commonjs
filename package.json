@@ -1,0 +1,35 @@
+{
+  "name": "rjs-commonjs",
+  "version": "1.0.0",
+  "description": "Extracted commonJs (and dependencies) module from jrburke/r.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexindigo/rjs-commonjs.git"
+  },
+  "keywords": [
+    "rjs",
+    "requirejs",
+    "commonjs",
+    "module"
+  ],
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexindigo/rjs-commonjs/issues"
+  },
+  "homepage": "https://github.com/alexindigo/rjs-commonjs#readme",
+  "dependencies": {
+    "global-define": "^2.0.2",
+    "prim": "0.0.7"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.1.1"
+  }
+}
