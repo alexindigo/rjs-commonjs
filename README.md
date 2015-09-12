@@ -2,6 +2,8 @@
 
 Extracted commonJs (and dependencies) module from jrburke/r.js.
 
+[![Build Status](https://travis-ci.org/alexindigo/rjs-commonjs.svg?branch=master)](https://travis-ci.org/alexindigo/rjs-commonjs)
+
 Allows to wrap CommonJS modules with `define` statements including dependency list for AMD environment,
 but without pulling all the dependencies, as `r.js` does it.
 
